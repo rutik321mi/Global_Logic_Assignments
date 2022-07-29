@@ -24,10 +24,11 @@ public class TwoCol {
 	 ResultSet r = st.executeQuery(query);
 
 	System.out.println("empno"+"	"+"ename");
-	while(r.next()) {
-         System.out.print(r.getInt("empno")+"	 ");
-         System.out.print(r.getString("ename"));
-         System.out.println("");
+	
+        while(r.next()) {
+         System.out.print(r.getInt(1)+"	 "+r.getString(2));
+         System.out.println();
+        
 	 }
 	
 	if (st != null) st.close();		
