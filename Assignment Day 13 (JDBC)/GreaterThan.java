@@ -25,12 +25,10 @@ public class GreaterThan {
 	 ResultSet r = st.executeQuery(query);
 
 	System.out.println("ename"+"	"+" job"+"		"+" sal"+"		"+"comm");
-	while(r.next()) {
-         System.out.print(r.getString("ename")+"	 ");
-         System.out.print(r.getString("job")+"	 ");
-         System.out.print(r.getDouble("sal")+"		");
-         System.out.print(r.getDouble("comm")+"		");
-         System.out.println("");
+	
+         while(r.next()) {
+         System.out.print(r.getString(2)+"	 "+r.getString(3)+"	 "+r.getDouble(4)+"		"+r.getDouble(5));
+        
 	 }
 
 	}
