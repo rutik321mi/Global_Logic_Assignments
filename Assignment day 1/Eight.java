@@ -1,3 +1,5 @@
+//Write a program to print month in words, based on input month in numbers
+
 import java.util.Scanner;
 
 public class Eight {
