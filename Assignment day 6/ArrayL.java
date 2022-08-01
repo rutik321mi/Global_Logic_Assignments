@@ -1,3 +1,4 @@
+// Add months in array list and print them
 import java.util.*;
 public class ArrayL {
 
