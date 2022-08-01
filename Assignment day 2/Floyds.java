@@ -1,3 +1,4 @@
+//Write a program to print * in Floyds format (using for and while loop)
 import java.util.*;
 public class Floyds {
 
