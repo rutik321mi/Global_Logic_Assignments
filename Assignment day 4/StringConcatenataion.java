@@ -1,3 +1,4 @@
+//concatination of two strings
 package assignment4;
 
 import java.util.Scanner;
