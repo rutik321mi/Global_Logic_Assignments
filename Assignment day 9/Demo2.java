@@ -1,4 +1,4 @@
-
+//junit test for palindrome string
 public class Demo2 {
 	boolean palindromeCheck(String s){
 		boolean flag=true;
