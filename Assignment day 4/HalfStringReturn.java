@@ -1,3 +1,10 @@
+/*Write a java program that will return the first half of the string, if the length of the string is even.
+ It should return null for odd length string.
+Example1)
+i/p:TomCat
+o/p:Tom
+*/
+
 package assignment4;
 
 import java.util.Scanner;

@@ -1,3 +1,8 @@
+/*
+ *  Write a program to print the color name, based on color code. If color code in not valid
+ *  then print "Invalid Code". R->Red, B->Blue, G->Green, O->Orange, Y->Yellow, W->White.
+ */
+
 import java.util.*;
 public class Seventh {
 

@@ -1,3 +1,9 @@
+/*Create a Collection “ContactList” using HashMap to store name and phone number of contacts added. The program should use appropriate generics (String, Integer) and have the following abilities:
+a) Check if a particular key exists or not. 
+b) Check if a particular value exists or not.
+c) Use Iterator to loop through the map.
+*/
+
 import java.util.*;
 
 class ContactList{
